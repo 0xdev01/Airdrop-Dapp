@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Hi, initial-scale=1.0">
+    <title>Airdrop dapp</title>
+    <link rel = "stylesheet" href= "style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src= "script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Airdrop Dapp</h1>
+        <p> </p>
+        <a class = "button3" onclick="connectWallet()">Connect Wallet</a>
+        <p>Token address:</p>
+        <input type="text" placeholder='Enter token address that you want to airdrop' id="inputTokenAddress"/>
+        <p>Amount:</p>
+        <input type="int" placeholder='Enter amount you want to transfer for each address'id="inputAmount"/>
+        <p>List of addresses:</p>
+        <input type="text" placeholder='Enter the list of addresses with space between'id="inputListOfAddresses"/>
+        <p> </p>
+        <a class = "button2" onclick="airdrop()">Airdrop</a>
+    </div>
+    
+</body>
+</html>
